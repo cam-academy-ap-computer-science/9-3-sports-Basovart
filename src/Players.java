@@ -1,14 +1,25 @@
 
 public class Players {
-	private int age;
-	private String name;
-	private int salary;
-	private String nationality;
-	
-	
-	
-	public static void main(String[] args) {
-		
+	protected static String name;
+	protected static int age;
+	protected static String nationality;
+
+	public Players(String na, int a, String n) {
+		name = na;
+		age = a;
+		nationality = n;
+	}
+	public static String getName() {
+		return name;
+	}
+	public static int getAge() {
+		return age;
+	}
+	public static String getNationality() {
+		return nationality;
 	}
 
+	
+	
+	
 }

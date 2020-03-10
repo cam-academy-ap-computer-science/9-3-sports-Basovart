@@ -1,4 +1,4 @@
-
+package SportsMain;
 public class Boxers extends Players{
 	int weight;
 	int height;

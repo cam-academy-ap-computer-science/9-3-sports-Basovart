@@ -1,4 +1,4 @@
-
+package SportsMain;
 public class Players {
 	protected static String name;
 	protected static int age;
@@ -9,16 +9,18 @@ public class Players {
 		age = a;
 		nationality = n;
 	}
-	public static String getName() {
+	public String getName() {
 		return name;
 	}
-	public static int getAge() {
+	public int getAge() {
 		return age;
 	}
-	public static String getNationality() {
+	public String getNationality() {
 		return nationality;
 	}
-
+	public String toString() {
+		return name + ", " + age + ", " + nationality;
+	}
 	
 	
 	

@@ -31,7 +31,8 @@ public class Boxers extends Players {
 	public boolean equals(Object o) {
 		if (o instanceof Boxers) {
 			Boxers other = (Boxers) o;
-			return other.getName() == getName() && (other.getAge() == getAge()) 
+			return other.getName() == getName() 
+					&& (other.getAge() == getAge()) 
 					&& (other.getNationality() == getNationality())
 					&& (other.getWins() == getWins())
 					&& (other.getLosses() == getLosses())

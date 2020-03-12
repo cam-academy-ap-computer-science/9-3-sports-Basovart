@@ -28,7 +28,8 @@ public class HockeyPlayers extends Players{
 	public boolean equals(Object o) {
 		if (o instanceof HockeyPlayers) {
 			HockeyPlayers other = (HockeyPlayers) o;
-			return other.getName() == getName() && (other.getAge() == getAge()) 
+			return other.getName() == getName() 
+					&& (other.getAge() == getAge()) 
 					&& (other.getNationality() == getNationality())
 					&& (other.getNumber() == getNumber())
 					&& (other.getPosition() == getPosition())

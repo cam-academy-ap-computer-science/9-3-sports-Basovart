@@ -1,8 +1,8 @@
 package SportsMain;
 public class Players {
-	protected static String name;
-	protected static int age;
-	protected static String nationality;
+	protected String name;
+	protected int age;
+	protected String nationality;
 
 	public Players(String na, int a, String n) {
 		name = na;
